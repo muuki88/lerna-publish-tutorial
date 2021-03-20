@@ -1,0 +1,16 @@
+{
+    "name": "@muuki88/client",
+    "version": "1.0.0",
+    "description": "web client",
+    "main": "lib/index.js",
+    "files": [
+      "lib"
+    ],
+    "author": "Muki",
+    "license": "Apache v2",
+    "scripts": {
+      "build": "clean build:tsc",
+      "build:tsc": "tsc -b",
+      "clean": "rm -rf lib/"
+    }
+  }

@@ -1,0 +1,26 @@
+{
+  "name": "lerna-publish-tutorial",
+  "version": "1.0.0",
+  "description": "lerna example project",
+  "main": "index.ts",
+  "repository": "git@github.com:muuki88/lerna-publish-tutorial.git",
+  "author": "Nepomuk Seiler <nepomuk.seiler@mukis.de>",
+  "license": "Apache v2",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "build": "run-p clean run-s build:api",
+    "build:api": "tsc -b ./packages/tsconfig.api-base.json",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna run --parallel clean",
+    "release": "lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "typescript": "^4.2.3"
+  }
+}
