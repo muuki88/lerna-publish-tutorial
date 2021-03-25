@@ -51,7 +51,7 @@ jobs:
 
       - name: Publish Release Notes
         if: steps.check-version.outputs.tag
-        uses: release-drafter/release-drafter@5
+        uses: release-drafter/release-drafter@v5
         with:
           publish: true
           tag: ${{ env.RELEASE_VERSION }}
