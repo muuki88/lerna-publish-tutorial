@@ -1,4 +1,4 @@
-name-template: 'Muki $RESOLVED_VERSION Release'
+name-template: 'v$NEXT_PATCH_VERSION 🌈'
 tag-template: 'v$RESOLVED_VERSION'
 categories:
   - title: '🚀 New Features'
