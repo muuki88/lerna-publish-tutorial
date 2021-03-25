@@ -1,5 +1,5 @@
 name-template: 'Muki $RESOLVED_VERSION Release'
-tag-template: '$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
 categories:
   - title: '🚀 New Features'
     label: 'feature'
