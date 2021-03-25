@@ -54,6 +54,6 @@ jobs:
         uses: release-drafter/release-drafter@5
         with:
           publish: true
-          tag: ${{ RELEASE_VERSION }}
+          tag: ${{ env.RELEASE_VERSION }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
