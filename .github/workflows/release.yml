@@ -51,7 +51,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Publish New Package Version
-        run: yarn github:publish
+        run: yarn github:publish --yes
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
