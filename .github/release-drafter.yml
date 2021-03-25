@@ -11,7 +11,7 @@ categories:
       - 'bugfix'
       - 'bug'      
 change-template: |
-  - $TITLE (#$NUMBER) by $AUTHOR
+  - $TITLE (#$NUMBER) by @$AUTHOR
     $BODY
 version-resolver:
   major:
