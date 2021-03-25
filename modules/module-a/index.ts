@@ -17,7 +17,9 @@ export class ModuleA implements IModule {
   }
 
   config(): Object | null {
-    return null;
+    return {
+      enabled: true
+    };
   }
 
 }
