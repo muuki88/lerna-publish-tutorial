@@ -1,6 +1,7 @@
 import {
   IModule,
   ModuleType,
+  flatten
 } from '@muuki88/core';
 
 /**
@@ -14,6 +15,10 @@ export class ModuleA implements IModule {
 
   public say(msg: string): string {
     return `${this.name} says ${msg}`;
+  }
+
+  public arrayStuf(input: string[][]): string[] {
+    return flatten(input);
   }
 
   config(): Object | null {
