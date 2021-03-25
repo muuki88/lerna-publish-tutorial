@@ -1,6 +1,6 @@
 {
   "name": "@muuki88/module-blocklist-url",
-  "version": "3.26.1",
+  "version": "0.0.1",
   "license": "Apache-2.0",
   "description": "Handles blocklisted urls",
   "main": "./lib/index.js",
