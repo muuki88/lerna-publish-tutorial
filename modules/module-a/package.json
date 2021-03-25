@@ -1,6 +1,6 @@
 {
   "name": "@muuki88/module-blocklist-url",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "license": "Apache-2.0",
   "description": "Handles blocklisted urls",
   "main": "./lib/index.js",
@@ -30,6 +30,6 @@
     "typescript": "^4.1.5"
   },
   "dependencies": {
-    "@muuki88/core": "^0.0.8"
+    "@muuki88/core": "^0.0.9"
   }
 }
