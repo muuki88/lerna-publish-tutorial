@@ -5,6 +5,10 @@
     "core",
     "modules/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:muuki88/lerna-publish-tutorial.git"
+  },
   "scripts": {
     "setup:all": "yarn workspaces run setup",
     "setup": "yarn && yarn clean:lib && lerna bootstrap && yarn setup:all",
