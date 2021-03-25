@@ -10,9 +10,7 @@ categories:
       - 'fix'
       - 'bugfix'
       - 'bug'      
-change-template: |
-  - $TITLE (#$NUMBER) by @$AUTHOR
-    $BODY
+change-template: '- $TITLE (#$NUMBER) by @$AUTHOR'
 version-resolver:
   major:
     labels:
