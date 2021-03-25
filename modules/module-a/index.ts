@@ -3,6 +3,9 @@ import {
   ModuleType,
 } from '@muuki88/core';
 
+/**
+ *  This A module
+ */
 export class ModuleA implements IModule {
 
   readonly name: string = 'ModuleA';
