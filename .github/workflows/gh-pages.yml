@@ -33,7 +33,7 @@ jobs:
         node-version: 14.x
 
     - name: build typescript api docs
-      run:
+      run: |
         yarn install
         yarn typedoc
     - name: yarn install and build
