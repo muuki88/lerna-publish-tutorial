@@ -109,3 +109,4 @@ lib/
 
 # Docusaurus
 docs/.docusaurus
+docs/static/api

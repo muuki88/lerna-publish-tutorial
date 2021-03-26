@@ -1,0 +1,8 @@
+{
+  "name": "lerna publish tutorial",
+  "entryPoints": [
+    "core/source/ts/index.ts",
+    "modules/module-a/index.ts"
+  ],
+  "out": "docs/static/api"
+}
