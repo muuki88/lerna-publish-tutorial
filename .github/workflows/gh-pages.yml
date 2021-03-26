@@ -1,0 +1,34 @@
+name: Github Pages Deployment
+
+on:
+  push:
+    # branches to consider in the event; optional, defaults to all
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest    
+    steps:
+    - uses: actions/checkout@master
+
+    # build
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14.x
+    - name: yarn install and build
+      run: |
+        cd docs
+        yarn install
+        yarn build
+
+    # deploy
+    - name: Deploy
+      uses: s0/git-publish-subdir-action@develop
+      env:
+        REPO: self
+        BRANCH: gh-pages
+        FOLDER: docs/build
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[19],{92:function(l){l.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/lerna-publish-tutorial/blog/welcome"},{"title":"Hello","permalink":"/lerna-publish-tutorial/blog/hello-world"},{"title":"Hola","permalink":"/lerna-publish-tutorial/blog/hola"}]}')}}]);

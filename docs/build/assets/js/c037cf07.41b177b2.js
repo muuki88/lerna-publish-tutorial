@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{96:function(l){l.exports=JSON.parse('{"allTagsPath":"/lerna-publish-tutorial/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/lerna-publish-tutorial/blog/tags/hello"}')}}]);
